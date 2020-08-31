@@ -1,0 +1,59 @@
+
+--------------------------------------------------------------------------------
+       Segmentation violation detected at Thu Aug 27 09:27:32 2020 -0700
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : ISO-8859-1
+  Deployed                 : false
+  Graphics Driver          : Intel Inc. Intel(R) UHD Graphics 617 Version 2.1 INTEL-14.7.8
+  Java Version             : Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  MATLAB Architecture      : maci64
+  MATLAB Entitlement ID    : 6668188
+  MATLAB Root              : /Applications/MATLAB_R2019b.app
+  MATLAB Version           : 9.7.0.1261785 (R2019b) Update 3
+  OpenGL                   : hardware
+  Operating System         : Mac OS Version 10.15.6 (Build 19G73)
+  Process ID               : 376
+  Processor ID             : x86 Family 6 Model 142 Stepping 9, GenuineIntel
+  Session Key              : 5ecc1e59-7543-4f9b-86d7-e4cb03ee5fcd
+  Window System            : Quartz
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Register State (from fault):
+  RAX = 00007fff31eb6ddd  RBX = 00000000000004ec
+  RCX = 0000000000000004  RDX = 0000000000000000
+  RSP = 6b6e1161743b0056  RBP = 0000000000000648
+  RSI = 6b6e1161743b0056  RDI = 0000000000000000
+
+   R8 = 0000000000000650   R9 = 0000000000000000
+  R10 = 00007ffee68c5458  R11 = 00007ffee68c5380
+  R12 = 00007fd1969f0000  R13 = 00007ffee68c5340
+  R14 = 00007fff2d535f24  R15 = 0000000000000000
+
+  RIP = 0000000000000000  RFL = 00007fd19749e088
+
+   CS = 0000000000000000   FS = 00007ffee68c5370   GS = 000000011dd2bc5f
+
+Stack Trace (from fault):
+[  0] 0x000000010bd5b519 /Applications/MATLAB_R2019b.app/bin/maci64/libmwfl.dylib+00005401 _ZN10foundation4core4diag15stacktrace_base7captureERKNS1_14thread_contextEm+00000057
+[  1] 0x000000010bd5f968 /Applications/MATLAB_R2019b.app/bin/maci64/libmwfl.dylib+00022888 _ZN10foundation4core4test17terminate_handledERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE+00006488
+[  2] 0x000000010bd5dd55 /Applications/MATLAB_R2019b.app/bin/maci64/libmwfl.dylib+00015701 _ZN10foundation4core4diag13terminate_logEPKcPK17__darwin_ucontext+00000149
+[  3] 0x000000011133f097 /Applications/MATLAB_R2019b.app/bin/maci64/libmwmcr.dylib+00688279 _Z19mnPrintErrorMessageRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE+00012887
+[  4] 0x000000011133cd54 /Applications/MATLAB_R2019b.app/bin/maci64/libmwmcr.dylib+00679252 _Z19mnPrintErrorMessageRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE+00003860
+[  5] 0x000000011133a494 /Applications/MATLAB_R2019b.app/bin/maci64/libmwmcr.dylib+00668820 mnFatalSignalHandler+00000148
+[  6] 0x00007fff678025fd           /usr/lib/system/libsystem_platform.dylib+00013821 _sigtramp+00000029
+[  7] 0x0000600003177dc0                                   <unknown-module>+00000000
+[  8] 0x000000011dd2bc5f /Applications/MATLAB_R2019b.app/sys/java/jre/maci64/jre/lib/libawt_lwawt.dylib+00121951 getBPPFromModeString+00000032
+[  9] 0x000000011dd2bd07 /Applications/MATLAB_R2019b.app/sys/java/jre/maci64/jre/lib/libawt_lwawt.dylib+00122119 createJavaDisplayMode+00000053
+[ 10] 0x000000011dd2bf86 /Applications/MATLAB_R2019b.app/sys/java/jre/maci64/jre/lib/libawt_lwawt.dylib+00122758 Java_sun_awt_CGraphicsDevice_nativeGetDisplayMode+00000031
+[ 11] 0x000000011f6df667                                   <unknown-module>+00000000
+[ 12] 0x000000011f6cf040                                   <unknown-module>+00000000
+
