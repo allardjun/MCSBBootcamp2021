@@ -21,6 +21,8 @@ Ubuntu: All the tools we need are part of a vanilla install
 
 Other operating systems: You're on your own. We will be using Git from the command line.
 
+Alternatively, you can install a GUI that uses git. For example GitHub Desktop, or 
+
 You should now be able to enter `git --version` and have it return something like "git version 2.17.1". The version won't matter for what we're doing today.
 
 ## Other software
