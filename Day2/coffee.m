@@ -12,6 +12,7 @@ x(1) = 1.0; % initial fraction caffeinated
 for n=2:nMax
     
     x(n) = (1-1/N) * x(n-1);
+    %x(n) = x(n-1) - 1/N*x(n-1);
     
 end % finished loop through days
 
