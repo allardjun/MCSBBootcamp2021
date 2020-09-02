@@ -51,7 +51,7 @@ Unless otherwise specified, let $c= -0.8$ and $d =0.156$.
 \item For specific starting point, plot first 22 values \verb|y(n)| versus \verb|x(n)|.
 \item Write code to create 100 numbers, uniformly randomly selected from the interval (-2,2). 
 \item For \verb|NStartingPoints=100| uniformly random in (-2,2),  plot \verb|x(1)| versus \verb|y(1)|. Note this means there are 200 random numbers. This should be a uniform random spread of dots. 
-\item For \verb|NStartingPoints=100| uniformly random in (-2,2), check if each \verb|x(1),y(1)| was outside the box (-2,2). If so, plot it in red. If not, plot it in blue. 
+\item For \verb|NStartingPoints=100| uniformly random in (-2,2), compute the equations for 22 steps. Check if each \verb|x(22),y(22)| was outside the box (-2,2). If so, plot the corresponding \verb|x(1),y(1)| in red. If not, plot it in blue. 
 \item Do this for \verb|NStartingPoints=1e5|.  
 \item Change parameter value $c$ and $d$ (to whatever you want) and repeat.
 \item Bonus Part: Make a version that records what n each initial x,y leaves the (-2,2) box. Call this \verb|n_at_exit|. Then, when you plot the points that exist, color the points by the \verb|n_at_exit|.
