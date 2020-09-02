@@ -21,6 +21,8 @@ Ubuntu: All the tools we need are part of a vanilla install
 
 Other operating systems: You're on your own. We will be using Git from the command line.
 
+Alternatively, you can install a GUI that uses git. For example GitHub Desktop, or 
+
 You should now be able to enter `git --version` and have it return something like "git version 2.17.1". The version won't matter for what we're doing today.
 
 ## Other software
@@ -29,9 +31,9 @@ All OS:
 
 Program | Link | Notes | Size
 --- | --- | --- | ---
-Matlab | http://laptops.eng.uci.edu/software-installation/matlab	| Install Matlab 2019a. You won't need any toolboxes. | 5GB
+Matlab | http://laptops.eng.uci.edu/software-installation/matlab	| Install Matlab 2020. You won't need any toolboxes. | 5GB
 Mathematica	| https://uci.service-now.com/kb_view.do?sysparm_article=KB0010917 | &nbsp; | 9GB
-Anaconda |	https://www.anaconda.com | Install Python 3.7 | 6GB
+Anaconda |	https://www.anaconda.com | Install Python 3.8 | 6GB
 Blender |	https://www.blender.org/ | &nbsp; | 0.4GB
 
 Windows users:
