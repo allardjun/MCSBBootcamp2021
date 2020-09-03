@@ -5,3 +5,7 @@ if (z < 0.5)
 else 
     display('z is big'); 
 end
+
+
+system('git log -1 --pretty=format:%H > CommitHash.txt')
+
