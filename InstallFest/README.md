@@ -19,11 +19,9 @@ Windows 10:
 
 Ubuntu: All the tools we need are part of a vanilla install
 
-Other operating systems: You're on your own. We will be using Git from the command line.
+Alternatively, you can install a GUI that uses git. For example GitHub Desktop, or GitKrakken, ...
 
-Alternatively, you can install a GUI that uses git. For example GitHub Desktop, or 
-
-You should now be able to enter `git --version` and have it return something like "git version 2.17.1". The version won't matter for what we're doing today.
+You should now be able to enter `git --version` and have it return "git version 2.17.1". (The version won't matter for what we're doing.)
 
 ## Other software
 
@@ -44,3 +42,16 @@ Ubuntu | (Installed through in Windows 10) | &nbsp; | 0.6GB
 Putty | https://www.putty.org | &nbsp; | 0.01GB
 
 Approximate total: 22GB
+
+
+## Julia for Jupyter
+
+There are two ways to do this.
+
+* Using conda: https://anaconda.org/conda-forge/julia
+
+* Using JuliaLang: https://datatofish.com/add-julia-to-jupyter/
+
+
+
+
