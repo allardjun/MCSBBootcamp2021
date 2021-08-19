@@ -5,9 +5,7 @@
 
 ### Before the first day
 
-
 * Make a [GitHub account](https://github.com/join) if you don't already have one
-
 * Install git:
     - macOS
         - Install GitHub Desktop (easier) or
@@ -22,15 +20,12 @@
 ### On or after the first day: InstallFest!
 
 - Install [Matlab](https://www.oit.uci.edu/help/matlab/)
-
 - Recommended but not required:
     - Install Jupyter by installing [Anaconda](https://www.anaconda.com/products/individual)
     - Install [Julia](https://julialang.org/)
     - Install [IJulia](https://github.com/JuliaLang/IJulia.jl) (Jupyter Julia)
-
 - Install [Blender](https://www.blender.org/)
     - Bring an external mouse (we have extras if you need one)
-
 - Install [Mathematica](https://uci.service-now.com/kb_view.do?sysparm_article=KB0010917)
 
 
