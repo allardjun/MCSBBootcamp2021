@@ -3,7 +3,7 @@
 
 ## Installation
 
-### Before the first day
+### On or before the first day
 
 * Make a [GitHub account](https://github.com/join) if you don't already have one
 * Install git:
@@ -14,7 +14,6 @@
         - Install GitHub Desktop (easier but less full-featured) and/or
         - Install [Windows Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10), and then install [git in the WLS](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) (note unlike macOS, installing git in Windows is not the same as installing git inside the WLS.)
     - Note if you have another git client, besides GitHub Desktop, you are free to use that instead!
-
 
 
 ### On or after the first day: InstallFest!
