@@ -11,6 +11,7 @@
         - Install GitHub Desktop (easier) or
         - install git (if you install GitHub Desktop, git will automatically be installed)
         - You can also use git from the terminal but you might run into password authentication issues.
+        - Installing command line tools in MacOS says it will take 5 hours but is actualy much faster.
     - Windows
         - Install GitHub Desktop (easier but less full-featured) and/or
         - Install [Windows Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10), and then install [git in the WLS](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) (note unlike macOS, installing git in Windows is not the same as installing git inside the WLS.)
