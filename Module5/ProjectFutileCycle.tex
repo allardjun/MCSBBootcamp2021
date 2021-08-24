@@ -30,7 +30,7 @@
 \section*{Project: Phosphorylation-dephosphorylation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-Many proteins are activated (phosphorylated) by enzymes called kinases, and deactivated (dephosphorylated) by enzymes called phosphatases. Intuitively, the fraction of active protein is determined by the balance of kinases to phosphatases. This balance is maintained by constant activation and inactivation in what is called a futile cycle.
+Many proteins are activated (phosphorylated) by enzymes called kinases, and deactivated (dephosphorylated) by enzymes called phosphatases. Intuitively, the fraction of active protein is determined by the balance of kinases to phosphatases. This balance is maintained by constant activation and inactivation in what is called \textit{futile cycle}.
 
 \begin{enumerate}[a.]
 \item Sketch a diagram where the horizontal axis is the ratio of kinase to phosphatase (say, in log scale), and the vertical axis is the fraction of activated protein in steady state. Use your intuition to sketch what you think the curve should look like.
@@ -75,8 +75,8 @@ k_{\rm cat}^A &= 100 ~\mbox{s}^{-1}
 
 The first two equations are
 \begin{align}
-\frac{d\dot{[A]}}{dt} &= -k_{\rm on}^A \left( [P_{\rm tot}] - [AP]\right) [A] + k_{\rm off}^A [AP] + k_{\rm cat}^A [IK],\\
-\frac{d\dot{[AP]}}{dt} &= +k_{\rm on}^A \left( [P_{\rm tot}] - [AP]\right) [A] - k_{\rm off}^A [AP] - k_{\rm cat}^I [AP].
+\frac{d{[A]}}{dt} &= -k_{\rm on}^A \left( [P_{\rm tot}] - [AP]\right) [A] + k_{\rm off}^A [AP] + k_{\rm cat}^A [IK],\\
+\frac{d{[AP]}}{dt} &= +k_{\rm on}^A \left( [P_{\rm tot}] - [AP]\right) [A] - k_{\rm off}^A [AP] - k_{\rm cat}^I [AP].
 \end{align}
 
 \item Assume that at time $t=0$, all of the protein is in the inactive state, and that its concentration is $I_{\rm tot}=1~\mu\mbox{M}$. What are the appropriate initial conditions for the ODEs?
