@@ -2,7 +2,7 @@
 
 
 Front Team:
-* Thao Nguyen
+* Thao 
 * Gabby
 * Negin
 
@@ -13,7 +13,7 @@ Window-side Team:
 * Albert
 
 Art-side Team:
-* Lulu Lai
-* Sarah Eldeen
-* Arthur York
+* Lulu 
+* Sarah 
+* Arthur
 * Chaorong
