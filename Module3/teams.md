@@ -8,10 +8,10 @@ Front Team:
 Window-side Team:
 * Sarah
 * Pei
-* Gabriela
+* Gabby
 
 Art-side Team:
 * Chaorong
 * Kai
 * Negin
-* Wei
+* Albert
