@@ -30,8 +30,8 @@ plot(NPCLocation(1), NPCLocation(2),'or','markerfacecolor','r','markersize',10);
 
 tic;
 
-%parfor iSample=1:NSample
-for iSample=1:NSample
+parfor iSample=1:NSample
+%for iSample=1:NSample
     
     % intial condition
     x = [L/2,0];
@@ -61,7 +61,7 @@ for iSample=1:NSample
             break;
         end
         
-        if 1 % visualize
+        if 0 % visualize
             figure(1);
             plot(x(1),x(2),'-ob');
             drawnow;
@@ -71,6 +71,8 @@ for iSample=1:NSample
         
     end % finished loop through time
         
+    %display(iSample);
+    
 end % finished loop through samples
 
 toc % report the time
@@ -79,4 +81,4 @@ toc % report the time
 
 figure(2); clf; hold on; box on;
 histogram(tCapture)
-set(gca,'yscale','log')
+%set(gca,'yscale','log')
