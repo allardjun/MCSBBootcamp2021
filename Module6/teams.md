@@ -4,13 +4,10 @@ Team Blue
 * Chaorong
 * Arthur
 
-Team Emerald
-* Pei
-* Albert
-
 Team Green
 * Thao
 * Lulu
+* Albert
 
 Team Fuscia
 * Kai
