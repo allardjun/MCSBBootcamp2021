@@ -8,6 +8,7 @@ Front Team:
 Window-side Team:
 * Kai
 * Pei
+* Sarah
 
 Art-side Team:
 * Lulu
