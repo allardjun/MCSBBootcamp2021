@@ -6,12 +6,11 @@ Front Team:
 * Albert
 
 Window-side Team:
-* Gabby
 * Kai
 * Pei
+* Sarah
 
 Art-side Team:
 * Lulu
-* Sarah
 * Negin
 * Chaorong
